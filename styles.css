@@ -1,0 +1,21 @@
+.search_box {
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: medium;
+  margin: 30px;
+}
+
+.search_box input {
+  margin-bottom: 30px;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  width: 250px;
+}
+
+.search_box button {
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  border-radius: 3px;
+}
