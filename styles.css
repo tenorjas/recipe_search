@@ -19,3 +19,18 @@
   border-color: black;
   border-radius: 3px;
 }
+
+#search_results {
+  margin: 0 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.recipe {
+  margin: 10px;
+  width: 25%;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+}
