@@ -10,7 +10,7 @@ button.addEventListener("click", event => {
 
   const promise = fetch(url + searchBox.value).then(response => response.json()).then(recipes => {
     console.log(recipes);
-
+    parent.textContent = "";
     recipes.results.forEach((item, index) => {
       let title = item.title;
       let anchor = item.href;
